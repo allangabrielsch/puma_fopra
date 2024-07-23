@@ -1,0 +1,227 @@
+### NICOS data file, created at 2013-09-10 14:14:03
+#                  filename : p5720_00008373.dat
+#                    number : 8373
+#                  filepath : /data/exp/p5720/data/p5720_00008373.dat
+#                      info : qcscan([2, 2, 0, 9], [0.02, 0.02, 0, 0], 23, kf=2.662, mon1=750000.0)
+### Experiment information
+#          Exp_localcontact : Jitae Park 
+#              Exp_proposal : p5720 
+#                Exp_remark :  
+#                 Exp_title : spin excitations KFSS 
+#                 Exp_users : JTP 
+#           puma_instrument : PUMA 
+#          puma_responsible : O. Sobolev, J.T. Park, A. Teichert 
+### Sample and alignment
+#             Sample_angles : [90.0, 90.0, 90.0] deg
+#            Sample_lattice : [5.327460673482074, 5.327460673482074, 14.06] A
+#             Sample_mosaic : 0.5 deg
+#            Sample_orient1 : [1.0, 0.0, 0.0] 
+#            Sample_orient2 : [0.0, 1.0, 0.0] 
+#               Sample_psi0 : 31.0 deg
+#         Sample_samplename : K0.8Fe1.7Se2  
+#         Sample_spacegroup : 1 
+### Instrument setup
+#             T_ls340_alias : T_ls340
+#           T_ls340_B_alias : T_ls340_B
+#                ana_dvalue : 3.355 A
+#               ana_focmode : double 
+#            ana_hfocuspars : [0.59065, 7.33506, 0.86068, -0.22745, 0.02901] 
+#                ana_mosaic : 0.5 deg
+#                 ana_order : 1 
+#              ana_reltheta : True 
+#            ana_vfocuspars : [0.0] 
+#               mono_dvalue : 3.355 A
+#              mono_focmode : double 
+#           mono_hfocuspars : [0.59065, 7.33506, 0.86068, -0.22745, 0.02901] 
+#               mono_mosaic : 0.5 deg
+#                mono_order : 1 
+#             mono_reltheta : True 
+#           mono_vfocuspars : [0.59065, 7.33506, 0.86068, -0.22745, 0.02901] 
+#                mono_alias : mono_pg002
+#         mono_cu220_dvalue : 1.278 A
+#        mono_cu220_focmode : manual 
+#     mono_cu220_hfocuspars : [1.34841, 15.207, 12.41842, -8.01148, 2.13633] 
+#         mono_cu220_mosaic : 0.5 deg
+#          mono_cu220_order : 1 
+#       mono_cu220_reltheta : True 
+#     mono_cu220_vfocuspars : [1.34841, 15.207, 12.41842, -8.01148, 2.13633] 
+#         mono_pg002_dvalue : 3.355 A
+#        mono_pg002_focmode : double 
+#     mono_pg002_hfocuspars : [0.59065, 7.33506, 0.86068, -0.22745, 0.02901] 
+#         mono_pg002_mosaic : 0.5 deg
+#          mono_pg002_order : 1 
+#       mono_pg002_reltheta : True 
+#     mono_pg002_vfocuspars : [0.59065, 7.33506, 0.86068, -0.22745, 0.02901] 
+#         puma_axiscoupling : True 
+#          puma_collimation :  
+#               puma_psi360 : True 
+#         puma_scanconstant : 2.662 
+#             puma_scanmode : CKF 
+#      puma_scatteringsense : (-1, 1, -1) 
+### Offsets
+#            T_ls340_offset : 0.0 
+#            T_ls340_offset : 0.0 
+#               afpg_offset : 0.0 deg
+#                agx_offset : 0.0 mm
+#                agy_offset : 0.0 mm
+#                ath_offset : -0.293884278465 deg
+#                att_offset : 0.0 deg
+#                atx_offset : 0.0 mm
+#                aty_offset : 0.0 mm
+#              mfhcu_offset : 0.0 deg
+#              mfhpg_offset : 0.0 deg
+#              mfvcu_offset : 0.0 deg
+#              mfvpg_offset : 0.0 deg
+#                mgx_offset : 0.0 mm
+#                mgy_offset : 0.0 mm
+#                mth_offset : -0.056 deg
+#                mtt_offset : -0.151 deg
+#                mty_offset : 0.0 mm
+#                phi_offset : 0.21 deg
+#                psi_offset : 0.0 deg
+#                sgx_offset : 0.0 deg
+#                sgy_offset : 0.0 deg
+#                stx_offset : 0.5 mm
+#                sty_offset : -0.15 mm
+#                stz_offset : 0.0 mm
+### Precisions
+#            afpg_precision : 0.25 deg
+#             agx_precision : 0.05 mm
+#             agy_precision : 0.05 mm
+#             ana_precision : 0.00247308095697 A-1
+#             ath_precision : 0.01 deg
+#             att_precision : 0.01 deg
+#             atx_precision : 0.1 mm
+#             aty_precision : 0.1 mm
+#           mfhcu_precision : 0.8 deg
+#           mfhpg_precision : 1.55 deg
+#           mfvcu_precision : 0.8 deg
+#           mfvpg_precision : 0.8 deg
+#             mgx_precision : 0.1 mm
+#             mgy_precision : 0.1 mm
+#            mono_precision : 0.00450513998626 A-1
+#      mono_cu220_precision : 0.0118268737511 A-1
+#      mono_pg002_precision : 0.00450513998626 A-1
+#             mth_precision : 0.012 deg
+#             mtt_precision : 0.01 deg
+#             mty_precision : 0.3 mm
+#             phi_precision : 0.005 deg
+#             psi_precision : 0.005 deg
+#             sgx_precision : 0.02 deg
+#             sgy_precision : 0.02 deg
+#             stx_precision : 0.05 mm
+#             sty_precision : 0.05 mm
+#             stz_precision : 0.1 mm
+### Devices in busy or error status
+#               puma_status : busy: mono=(theta=relais off, twotheta=external power stage enabled, relais off, focush=relais off, focusv=relais off), ana=(theta=relais off, twotheta=inhibit active, external power stage enabled, relais off, focush=relais off), phi=moving, external power stage enabled, relais on, waiting for start/stopdelay, psi=external power stage enabled, relais off
+### Device positions and sample environment state
+#                  Ef_value : 14.685 meV
+#                  Ei_value : 23.692 meV
+#        ReactorPower_value : 19.8 MW
+#             T_ls340_value : 23.196
+#    T_ls340_controlchannel : A 
+#                 T_ls340_d : 25.0 
+#       T_ls340_heaterpower : 7.1 W
+#                 T_ls340_i : 3.0 
+#                 T_ls340_p : 50.0 
+#          T_ls340_setpoint : 23.0 
+#           T_ls340_timeout : 600.0 s
+#         T_ls340_tolerance : 1.0 K
+#            T_ls340_window : 60.0 s
+#             T_ls340_value : 23.196
+#    T_ls340_controlchannel : A 
+#                 T_ls340_d : 25.0 
+#       T_ls340_heaterpower : 7.1 W
+#                 T_ls340_i : 3.0 
+#                 T_ls340_p : 50.0 
+#          T_ls340_setpoint : 23.0 
+#           T_ls340_timeout : 600.0 s
+#         T_ls340_tolerance : 1.0 K
+#            T_ls340_window : 60.0 s
+#           T_ls340_A_value : 23.196 K
+#           T_ls340_B_value : 26.222
+#           T_ls340_B_value : 26.222
+#                afpg_value : 20.548 deg
+#                 agx_value : 0.000 mm
+#                 agy_value : -0.000 mm
+#                 ana_value : 2.662 A-1
+#                 ath_value : 20.592 deg
+#                 atn_value : 0.000 mm
+#                 att_value : -41.188 deg
+#                 atx_value : 0.953 mm
+#                 aty_value : 1.070 mm
+#                 fpg_value : in
+#                  kf_value : 2.662 A-1
+#                  ki_value : 3.381 A-1
+#               mfhcu_value : 13.269 deg
+#               mfhpg_value : 15.530 deg
+#               mfvcu_value : 7.565 deg
+#               mfvpg_value : 16.844 deg
+#                 mgx_value : 0.000 mm
+#                 mgy_value : 0.100 mm
+#                mono_value : 3.381 A-1
+#          mono_cu220_value : -8.877 A-1
+#          mono_pg002_value : 3.381 A-1
+#                 mth_value : 16.082 deg
+#                 mtt_value : -32.153 deg
+#                 mty_value : 69.975 mm
+#                 phi_value : 48.540 deg
+#                 psi_value : 274.511 deg
+#                puma_value : [1.5405, 1.5403, 0.0000, 9.0070] rlu rlu rlu meV
+#                 sgx_value : 0.793 deg
+#                 sgy_value : -135.714 deg
+#               slit1_value : -15.99 15.99 -13.99 16.00 mm
+#               slit2_value : -14.99 11.99 -13.99 16.00 mm
+#                 stx_value : -3.123 mm
+#                 sty_value : -15.987 mm
+#                 stz_value : -4.12 mm
+### Scan data
+h	k	l	E	mono	ana	psi	phi	T_ls340	T_ls340_B	;	timer	mon1	mon2	det1	det2	det3	det4	det5
+1.5405	1.5403	0.0000	9.0070	3.381	2.662	274.511	48.540	22.759	26.211	;	9.281	750000	0	2	125	0	1	0
+1.5604	1.5602	0.0000	9.0070	3.381	2.662	273.913	49.266	22.823	26.223	;	9.287	750000	0	2	102	0	1	0
+1.5804	1.5802	0.0000	9.0070	3.381	2.662	273.315	49.997	22.787	26.225	;	9.307	750000	0	1	103	0	5	0
+1.6004	1.6003	0.0000	9.0072	3.381	2.662	272.725	50.730	22.759	26.211	;	9.300	750000	0	2	114	0	3	0
+1.6204	1.6202	0.0000	9.0072	3.381	2.662	272.139	51.459	22.798	26.227	;	9.319	750000	0	1	107	0	2	0
+1.6404	1.6403	0.0000	9.0070	3.381	2.662	271.555	52.198	22.794	26.230	;	9.316	750000	0	1	88	0	2	0
+1.6604	1.6603	0.0000	9.0070	3.381	2.662	270.976	52.933	22.810	26.218	;	9.283	750000	0	0	95	0	4	0
+1.6804	1.6802	0.0000	9.0072	3.381	2.662	270.400	53.670	22.748	26.186	;	9.291	750000	0	1	123	0	1	0
+1.7004	1.7002	0.0000	9.0072	3.381	2.662	269.829	54.409	22.819	26.239	;	9.279	750000	0	0	135	0	4	0
+1.7204	1.7204	0.0000	9.0072	3.381	2.662	269.261	55.153	22.793	26.203	;	9.284	750000	0	2	191	0	3	0
+1.7404	1.7403	0.0000	9.0072	3.381	2.662	268.693	55.895	22.787	26.225	;	9.295	750000	0	2	196	0	3	0
+1.7604	1.7603	0.0000	9.0070	3.381	2.662	268.131	56.640	22.766	26.214	;	9.305	750000	0	3	199	0	11	0
+1.7804	1.7801	0.0000	9.0072	3.381	2.662	267.570	57.385	22.800	26.227	;	9.280	750000	0	1	195	0	2	0
+1.8004	1.8003	0.0000	9.0070	3.381	2.662	267.014	58.137	22.915	26.232	;	9.285	750000	0	0	203	0	4	0
+1.8204	1.8203	0.0000	9.0070	3.381	2.662	266.459	58.889	22.874	26.227	;	9.312	750000	0	4	176	0	2	0
+1.8404	1.8404	0.0000	9.0072	3.381	2.662	265.906	59.645	22.912	26.215	;	9.288	750000	0	1	148	0	3	0
+1.8604	1.8603	0.0000	9.0072	3.381	2.662	265.356	60.400	22.932	26.228	;	9.241	750000	0	2	132	0	1	0
+1.8804	1.8804	0.0000	9.0070	3.381	2.662	264.806	61.160	23.072	26.233	;	9.283	750000	0	1	100	0	3	0
+1.9004	1.9003	0.0000	9.0070	3.381	2.662	264.259	61.920	22.985	26.239	;	9.305	750000	0	2	103	0	1	0
+1.9204	1.9203	0.0000	9.0070	3.381	2.662	263.713	62.685	23.083	26.218	;	9.283	750000	0	0	80	0	1	0
+1.9404	1.9403	0.0000	9.0072	3.381	2.662	263.169	63.452	23.084	26.201	;	9.305	750000	0	2	87	0	3	0
+1.9605	1.9603	0.0000	9.0072	3.381	2.662	262.625	64.222	23.207	26.252	;	9.327	750000	0	0	93	0	5	0
+1.9804	1.9804	0.0000	9.0070	3.381	2.662	262.086	64.995	22.978	26.210	;	9.293	750000	0	0	94	0	6	0
+2.0004	2.0003	0.0000	9.0072	3.381	2.662	261.543	65.769	23.065	26.227	;	9.316	750000	0	0	83	0	2	0
+2.0204	2.0202	0.0000	9.0072	3.381	2.662	261.004	66.546	22.965	26.227	;	9.330	750000	0	2	76	0	2	0
+2.0404	2.0404	0.0000	9.0070	3.381	2.662	260.466	67.329	22.979	26.235	;	9.259	750000	0	2	82	0	3	0
+2.0604	2.0605	0.0000	9.0070	3.381	2.662	259.929	68.115	22.987	26.228	;	9.318	750000	0	3	68	0	0	0
+2.0804	2.0803	0.0000	9.0072	3.381	2.662	259.391	68.900	23.030	26.221	;	9.303	750000	0	0	72	0	3	0
+2.1004	2.1005	0.0000	9.0070	3.381	2.662	258.854	69.695	22.943	26.232	;	9.321	750000	0	0	88	0	2	0
+2.1204	2.1204	0.0000	9.0070	3.381	2.662	258.316	70.489	22.903	26.228	;	9.316	750000	0	2	79	0	3	0
+2.1404	2.1402	0.0000	9.0072	3.381	2.662	257.778	71.285	22.941	26.228	;	9.317	750000	0	0	112	0	4	0
+2.1604	2.1605	0.0000	9.0070	3.381	2.662	257.244	72.090	22.985	26.238	;	9.308	750000	0	3	191	0	8	0
+2.1804	2.1803	0.0000	9.0070	3.381	2.662	256.706	72.895	22.981	26.206	;	9.285	750000	0	1	264	0	16	0
+2.2004	2.2001	0.0000	9.0072	3.381	2.662	256.169	73.700	22.980	26.231	;	9.286	750000	0	4	278	0	7	0
+2.2205	2.2203	0.0000	9.0072	3.381	2.662	255.631	74.518	22.925	26.218	;	9.310	750000	0	2	301	0	6	0
+2.2404	2.2403	0.0000	9.0070	3.381	2.662	255.094	75.336	22.938	26.215	;	9.290	750000	0	2	262	0	5	0
+2.2605	2.2602	0.0000	9.0072	3.381	2.662	254.555	76.156	23.004	26.238	;	9.308	750000	0	1	195	0	5	0
+2.2804	2.2803	0.0000	9.0072	3.381	2.662	254.019	76.983	22.961	26.233	;	9.310	750000	0	1	178	0	5	0
+2.3004	2.3003	0.0000	9.0072	3.381	2.662	253.479	77.815	22.948	26.233	;	9.336	750000	0	0	140	0	3	0
+2.3204	2.3202	0.0000	9.0072	3.381	2.662	252.939	78.648	22.941	26.225	;	9.342	750000	0	4	151	0	4	0
+2.3403	2.3404	0.0000	9.0072	3.381	2.662	252.399	79.493	22.963	26.236	;	9.317	750000	0	1	121	0	3	0
+2.3604	2.3603	0.0000	9.0072	3.381	2.662	251.856	80.336	23.049	26.233	;	9.277	750000	0	1	118	0	3	0
+2.3804	2.3802	0.0000	9.0072	3.381	2.662	251.311	81.187	22.961	26.212	;	9.300	750000	0	0	99	0	5	0
+2.4005	2.4002	0.0000	9.0072	3.381	2.662	250.766	82.043	23.071	26.239	;	9.282	750000	0	2	105	0	4	0
+2.4204	2.4203	0.0000	9.0072	3.381	2.662	250.221	82.904	23.081	26.215	;	9.326	750000	0	1	123	0	7	0
+2.4404	2.4404	0.0000	9.0070	3.381	2.662	249.674	83.772	23.130	26.216	;	9.319	750000	0	1	128	0	2	0
+2.4604	2.4603	0.0000	9.0072	3.381	2.662	249.124	84.642	23.187	26.208	;	9.305	750000	0	0	127	0	1	0
+### End of NICOS data file p5720_00008373.dat
